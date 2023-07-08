@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(207, 158, 252);
+}
+body .container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 5px;
+  border: 2px solid black;
+}
+body .submit {
+  display: flex;
+  justify-content: center;
+}
+body .submit input {
+  padding: 3px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: bisque;
+  border-radius: 4px;
+}
+body .submit input :hover {
+  cursor: pointer;
+}
+body .submit input :active {
+  cursor: pointer;
+  color: aliceblue;
+  background-color: rgb(231, 137, 23);
+}/*# sourceMappingURL=static.css.map */
